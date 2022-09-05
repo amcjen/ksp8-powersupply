@@ -14,34 +14,33 @@ proper fuses, and mimic's the power-good circuit that the KSP8 expects to see (t
 The new power supply input specs are super wide, so should be usable pretty much anywhere in the world:
 
 Voltage input:
-90-240V VAC
-47-440 Hz
+*90-240V VAC, 47-440 Hz*
 
 Do of course be extremely careful with the mains power coming into this! There are several exposed leads and test points.
 
 Regardless, most of the instructions are on the back of the board, on the silkscreen. It's reproduced here for reference:
 
+### Jumpers
+- JP1 - Tie mains gnd to 5V DC gnd (default: connected)
+- JP2 - Tie /pwr_ok to voltage supervisor output (default: connected)
+- JP3 - Tie /pwr_ok to 5V DC gnd (default: disconnected)
 
-JP1 - Tie mains gnd to 5V DC gnd (default: connected)
-JP2 - Tie /pwr_ok to voltage supervisor output (default: connected)
-JP3 - Tie /pwr_ok to 5V DC gnd (default: disconnected)
-
-TO RUN WITH POWER SUPERVISOR (default):
+### To run with the power supervisor (default)
 - Place U3 and R1
 - Leave JP2 uncut
 - Leave JP3 open
 
-TO RUN WITHOUT POWER SUPERVISOR:
+### To run without the power supervisor
 - Exclude U3 and R1
 - Cut JP2
 - Solder JP3
 
-U1 - Traco TML-40105 - 5V/8A output
-U2 - Traco TML-40215 - +15V/1.3A / -15V/1.3A
-U3 - Microchip MIC810LUY power supervisor
-F1/F2 - Littelfuse 05200101Z - 1.6A slow blow 5x20mm 250V fuses
-R1 - 100k 1206 resistor
-
+### Required Components
+- U1 - Traco TML-40105 - 5V/8A output
+- U2 - Traco TML-40215 - +15V/1.3A / -15V/1.3A
+- U3 - Microchip MIC810LUY power supervisor
+- F1/F2 - Littelfuse 05200101Z - 1.6A slow blow 5x20mm 250V fuses
+- R1 - 100k 1206 resistor
 
 
 You can buy Tracos at several retailers, like Mouser and Digikey. Yes, they're pricey, but they are also medical grade, have
