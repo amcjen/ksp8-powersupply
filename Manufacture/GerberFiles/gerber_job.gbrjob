@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-07-23T04:24:06Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "KSP8 Power Supply Board v75"
+        },
+        "Owner": "Allison Clift-Jennings <allie@jura.io>",
+        "Size": {
+            "X": 183,
+            "Y": 90
+        }
+    }
+}
