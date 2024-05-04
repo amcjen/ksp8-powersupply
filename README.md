@@ -1,6 +1,13 @@
 # ksp8-powersupply
 A replacement power supply PCB for the Kurzweil KSP8
 
+![Fbf42NQUUAAcW0R](https://github.com/amcjen/ksp8-powersupply/assets/175249/2719260f-8169-4fa6-b60c-dee36190085c)
+
+![Fbf42NQUEAM9DEA](https://github.com/amcjen/ksp8-powersupply/assets/175249/9fcf37cf-6028-4550-b9ab-1b55e17645c8)
+
+![Fbf42NTVUAAd-vw](https://github.com/amcjen/ksp8-powersupply/assets/175249/0a91777a-78a1-4dde-8b6b-763f7ff23aa5)
+
+
 Really simple drop-in replacement for the ancient power supply that comes with the KSP8. Included are the v9.0 compatible Eagle
 .sch and .brd files, as well as the raw gerbers. The zip file has all the gerbers compressed, and you can usually upload the zip
 file directly to most board houses for manufacture.
@@ -15,6 +22,7 @@ The new power supply input specs are super wide, so should be usable pretty much
 
 Voltage input:
 *90-240V VAC, 47-440 Hz*
+
 
 Do of course be extremely careful with the mains power coming into this! There are several exposed leads and test points.
 
